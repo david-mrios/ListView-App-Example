@@ -46,7 +46,9 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
-    implementation(libs.poi)
-    implementation(libs.poi.ooxml)
-    implementation(libs.commons.collections4)
+    implementation (libs.jxl)
+    implementation (libs.kotlin.csv.jvm)
+    implementation (libs.androidx.core.ktx.v160)
+
+
 }
